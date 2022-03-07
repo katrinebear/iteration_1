@@ -1,4 +1,5 @@
 # iteration_1
+   
    from PyQt6 import QtWidgets, uic
    import sys
 
@@ -15,7 +16,6 @@
          print(self.Mail_felt.text())
          print(self.Kodeord_felt.text())
          print("Videre til hovedmenu")
-
 
    if __name__ == '__main__':
       app = QtWidgets.QApplication(sys.argv)
